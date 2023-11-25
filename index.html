@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company HR Portal</title>
+    <link rel="icon" href="/images/icon.png">
+    
+</head>
+<body>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #dfb025;
+        }
+        header, footer{
+            background-color: #ffcc34;
+            color: blue;
+            text-align: center;
+            padding: 2px;
+        }
+        .navitem {
+            display: inline;
+            padding: 15px;
+        }
+        .navitem a{
+            text-decoration: none;
+            color: green;
+        }
+        .registerform{
+            width: max-content;
+            margin: 0 auto;
+        }
+        .employeetable{
+         text-align: center;   
+        }
+        table{
+            margin: 0 auto;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid #ffcc34;
+            padding: 8px;
+        }
+        .contactus{
+            text-align: center;
+        }
+    </style>
+    <header>
+        <h1>Welcome To HR Portel</h1>
+        <nav>
+        <ul>
+            <li class="navitem"><a href="#Employee-Registration">Employee Registration</a></li>
+            <li class="navitem"><a href="#Employee-Directory">Employee directory</a></li>
+            <li class="navitem"><a href="#Contact us">Contact us</a></li>
+        </ul>
+    </nav>
+    </header>
+        <div>
+            <img src="/images/yellow-office-190819.jpg"style="width:100%" height="400">
+    <section id="Employee-Registration" class="registerform">
+        <form>
+            <h2>Employee Registration</h2>
+            <p>Fill the below from to register as <em>Employee</em></p>
+            <label for="name">Name: </label>
+            <input type="text" id="name" required placeholder="name"><br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" required placeholder="Gmail"><br><br>
+            <label for="password">password: </label>
+            <input type="password" id="password" required placeholder="password"><br><br>
+            <label for="age">Age: </label>
+            <input type="number" id="age" required placeholder="Age"><br><br>
+            <label for="role">Select role: </label>"
+            <select>
+                <option>Software Engineer</option>
+                <option>Project Manger</option>
+                <option>Designer</option>
+                <option>HR representative</option>
+            </select><br><br>
+            <label for="joining">Select joining date: </label>
+            <input type="date" id="joining"><br><br>
+            <input type="submit">
+        </form>
+    </section>
+
+            <section id="Employee-Directory" class="employeetable">
+                <h2 style="text-align: center;">Employee Directory</h2>
+                <p>List of all registered employees.<br>😊 😊 😁 😊 😊</p>
+                <table>
+                    <tr>
+                        <th>Employee Id</th>
+                        <th>Employee Name</th>
+                        <th>Employee Roll</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>Software Engineer</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Soni</td>
+                        <td>Product Manager</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>heros</td>
+                        <td>Desiner representative</td>
+                    </tr>
+                </table>
+            </section>
+
+                    <section id="Contact us" class="contactus">
+                        <h2>Contact Us</h2>
+                        <p>You can conatact at us company@official.com or visit us between 9Am - 6Pm</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23131.628635463352!2d-87.95686835!3d43.55543095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8804916905039f25%3A0xeeacb8b8509b0289!2sRandom%20Lake%2C%20WI%2053075%2C%20USA!5e0!3m2!1sen!2sin!4v1700896048896!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </section>
+                </div>
+
+                    <footer>
+                        <p>Copyright 2021 &copy;. All rights reserved</p>
+                    </footer>
+</body>
+</html>
